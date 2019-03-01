@@ -10,14 +10,34 @@ p
   font-family: sans-serif;
 }
 
+p.author
+{
+  color: firebrick;
+}
+
 h1
 {
-  color: blue;
+  color: white;
   font-family: sans-serif;
+  font_size: 30pt;
+  background-image: url(https://s3-external-1.amazonaws.com/youvisit-img/Assets/img/locations/80030/1280_profile.jpg?v=1545422256);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1:hover
+{
+  color: yellow;
 }
 
 h3
 {
-  color: ;
+  color: white;
   font-family: sans-serif;
+}
+
+h3:hover
+{
+  color: firebrick;
 }
